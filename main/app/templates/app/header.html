@@ -1,0 +1,68 @@
+{% load static %}
+
+<header class="header">
+    <nav class="header__nav">
+        <div class="header__nav__BlokcLogo">
+            <img src="{% static 'img/log.svg' %}" class="header__nav__Logo">
+        </div>
+
+        <ul class="header__nav__Ulicon">
+            <li class="header__nav__Blockicon">
+                <a href="#"><img src="{% static 'img/coolicon.svg' %}" class="header__nav__icon google_icon"></a>
+            </li>
+
+            <li class="header__nav__Blockicon">
+                <a href="#"><img src="{% static 'img/instagram.svg' %}" class="header__nav__icon instagram_icon"></a>
+            </li>
+
+            <li class="header__nav__Blockicon">
+                <a href="#"><img src="{% static 'img/in.svg' %}" class="header__nav__icon in_icon"></a>
+            </li>
+        </ul>
+
+        <ul class="header__nav__Ul">
+            <a href="#" class="header__nav__Ul_href grow_text">О нас</a>
+            <a href="#" class="header__nav__Ul_href grow_text">Услуги</a>
+            <a href="#" class="header__nav__Ul_href grow_text">Специалисты</a>
+            <a href="#" class="header__nav__Ul_href grow_text">Пациентам</a>
+            <a href="#" class="header__nav__Ul_href grow_text">Контакты</a>
+        </ul>
+
+        <div class="header__nav_BlockAdrees Block_Nav">
+            <div class="header__nav_BlockAdrees_BlockImg">
+                <img class="header__nav_BlockAdrees_BlockImg_img" src="{% static 'img/metka.svg' %}">
+            </div>
+
+            <a class="header__nav_BlockAdrees_Text Text">Чебоксары, Энтузиастов 1А </a>
+        </div>
+
+        <div class="header__nav_BlockTime Block_Nav">
+            <div class="header__nav_BlockTime_BlockImg">
+                <img class="header__nav_BlockTime_BlockImg_img" src="{% static 'img/data.svg' %}">
+            </div>
+            <div class="header__nav_BlockTime_BlockText Block_Nav">
+                <p class="header__nav_BlockTime_Text Aria">с 09:00 - 20:00 </p>
+                <p class="header__nav_BlockTime_Text grow_text Aria">пн-сб </p>
+            </div>
+        </div>
+        
+        <div>
+            <div>
+
+            </div>
+        </div>
+
+
+        <div class="header__nav_BlockPhone Block_Nav">
+            
+            <div class="header__nav_BlockPhone__BlockImg">
+                <img class="header__nav_BlockPhone__BlockImng_Img" src="{% static 'img/phone.svg' %}">
+            </div>
+
+            <p class="header__nav_BlockPhone_Text Bold_Text Panton">+7900 333 10 40</p>
+            
+        </div>
+
+        <button class="header__nav_BlockPhone btn_blue">Заказать звонок</button>
+    </nav>
+</header>
